@@ -1,7 +1,7 @@
 import unittest
 
 
-# O(n)
+# O(N)
 def find_string(pat, txt):
     # Basic implementation of KMP search
     # Could have used python's str.find which is probably more efficient, but it was more fun implementing that.
@@ -32,7 +32,7 @@ def find_string(pat, txt):
     return -1
 
 
-# O(n)
+# O(N)
 def string_rotation(str1, str2):
     if len(str1) != len(str2):
         return False

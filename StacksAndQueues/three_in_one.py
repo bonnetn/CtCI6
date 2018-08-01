@@ -1,7 +1,7 @@
 import unittest
 
 
-class MultipleStack():
+class MultipleStack:
     def __init__(self, n):
         self.N = n
         self.arr = [0, 1, 2]
@@ -54,11 +54,11 @@ class Test(unittest.TestCase):
             s.push(2, i * 10)
 
         for i in reversed(range(30)):
-            assert s.pop(2) == i*10
+            assert s.pop(2) == i * 10
         assert s.pop(2) is None
 
-        assert s.peek(1) == 2*4
-        assert s.peek(1) == 2*4
+        assert s.peek(1) == 2 * 4
+        assert s.peek(1) == 2 * 4
 
 
 if __name__ == "__main__":

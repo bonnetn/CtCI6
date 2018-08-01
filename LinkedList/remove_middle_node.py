@@ -1,7 +1,7 @@
 import unittest
 
 
-class Node():
+class Node:
     def __init__(self, next, value):
         self.next = next
         self.value = value
