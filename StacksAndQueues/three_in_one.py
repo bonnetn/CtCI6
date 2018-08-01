@@ -2,6 +2,10 @@ import unittest
 
 
 class MultipleStack:
+    # Store N stacks in a single array
+    # The first N values of the array are used to store the position of the next value in this array.
+    # push increase the size of the array if necessary
+    # pop does not decrease the stack
     def __init__(self, n):
         self.N = n
         self.arr = [0, 1, 2]
